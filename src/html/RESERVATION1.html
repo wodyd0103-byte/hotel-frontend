@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>예약안내 | kopo14 Hotel</title>
+    <script type="module" src="../js/Header.js"></script>
+    <script type="module" src="../js/Footer.js"></script>
+    <script src="../js/RESERVATION1.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <my-header></my-header>
+
+    <section class="page-banner" style="background-image: url('../images/home2.jpg')">
+      <h2>RESERVATION</h2>
+      <p class="sub">예약안내</p>
+    </section>
+
+    <main class="subpage">
+      <div class="section-head">
+        <h3>예약안내</h3>
+      </div>
+
+      <!-- 요금표 -->
+      <div class="rsv-table-wrap">
+        <table class="rsv-table">
+          <thead>
+            <tr>
+              <th rowspan="2">객실</th>
+              <th rowspan="2">면적</th>
+              <th rowspan="2">인원<br />(기준/최대)</th>
+              <th colspan="3" class="season-th">비수기 (10.01 - 06.30)</th>
+              <th colspan="3" class="season-th">성수기 (07.01 - 09.30)</th>
+            </tr>
+            <tr>
+              <th>주중</th>
+              <th>주말</th>
+              <th>휴일</th>
+              <th>주중</th>
+              <th>주말</th>
+              <th>휴일</th>
+            </tr>
+          </thead>
+          <tbody id="rsvTableBody">
+            <tr>
+              <td colspan="9">불러오는 중...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 안내 카드 3종 -->
+      <div class="rsv-cards">
+        <div class="rsv-card">
+          <h4>숙박 조건</h4>
+          <p>
+            디럭스 &amp; 스위트 : 성인2 + 아동2<br />(만 12세 이하까지만 해당)<br /><br />
+            스위트 : 성인4 + 아동2<br />(만 12세 이하까지만 해당)
+          </p>
+        </div>
+        <div class="rsv-card">
+          <h4>식사 제공</h4>
+          <p>
+            디럭스 &amp; 스위트 (성인 2명 제공),<br />스위트 (성인 4명 제공)<br />
+            12세 미만 아동 2명 차일드 메뉴 무료 제공<br />
+            3박 예약 시 : 조식 3회, 중석식 4회<br />
+            4박 예약 시 : 조식 4회, 중석식 6회
+          </p>
+        </div>
+        <div class="rsv-card">
+          <h4>세부 사항</h4>
+          <p>
+            키즈 카페 쿠폰 제공<br />(아동 2명까지 가능, 2시간 제한)<br />
+            키즈 클럽 무료 이용<br />(아동 2명까지 가능, 숙박 기간 동안 무제한 이용)<br />
+            라운지 쿠폰 제공<br />(맥주 or 쉐이크 or 망고빙수 중 택1)
+          </p>
+        </div>
+      </div>
+
+      <!-- 취소 및 환불 규정 -->
+      <div class="rsv-policy">
+        <h4>취소 및 환불 규정</h4>
+        <div class="rsv-policy-body">
+          <p>숙박 예정일 1일 전 18시까지는 위약금 없이 취소 및 변경이 가능합니다.</p>
+          <p>숙박 예정일 1일 전 18시 이후 취소/변경 및 노쇼(No-show) 발생 시,</p>
+          <p>- 성수기 : 최초 1일 숙박 요금의 80%가 위약금으로 부과됩니다.</p>
+          <p>- 비수기(성수기 외 기간) : 최초 1일 숙박 요금의 10%가 위약금으로 부과됩니다.</p>
+          <p>일부 패키지의 경우 별도의 취소규정이 적용됩니다.</p>
+        </div>
+      </div>
+    </main>
+
+    <button id="topBtn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+      <img src="../images/TO TOP BUTTON.png" alt="맨 위로" />
+    </button>
+
+    <my-footer></my-footer>
+  </body>
+</html>

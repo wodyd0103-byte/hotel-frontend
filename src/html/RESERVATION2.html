@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>실시간예약 | kopo14 Hotel</title>
+    <script type="module" src="../js/Header.js"></script>
+    <script type="module" src="../js/Footer.js"></script>
+    <script src="../js/RESERVATION2.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <my-header></my-header>
+
+    <section class="page-banner" style="background-image: url('../images/home3.jpg')">
+      <h2>RESERVATION</h2>
+      <p class="sub">실시간예약</p>
+    </section>
+
+    <main class="subpage">
+      <div class="section-head">
+        <h3>객실 선택</h3>
+      </div>
+
+      <div class="rsv-rooms" id="rsvRooms">
+        <p>불러오는 중...</p>
+      </div>
+
+      <div class="rsv-policy">
+        <h4>취소 및 환불 규정</h4>
+        <div class="rsv-policy-body">
+          <p>숙박 예정일 1일 전 18시까지는 위약금 없이 취소 및 변경이 가능합니다.</p>
+          <p>숙박 예정일 1일 전 18시 이후 취소/변경 및 노쇼(No-show) 발생 시,</p>
+          <p>- 성수기 : 최초 1일 숙박 요금의 80%가 위약금으로 부과됩니다.</p>
+          <p>- 비수기(성수기 외 기간) : 최초 1일 숙박 요금의 10%가 위약금으로 부과됩니다.</p>
+          <p>일부 패키지의 경우 별도의 취소규정이 적용됩니다.</p>
+        </div>
+      </div>
+    </main>
+
+    <button id="topBtn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+      <img src="../images/TO TOP BUTTON.png" alt="맨 위로" />
+    </button>
+
+    <my-footer></my-footer>
+  </body>
+</html>

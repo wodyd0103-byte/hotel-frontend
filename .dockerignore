@@ -1,0 +1,14 @@
+# Docker 이미지 빌드에서 제외할 파일들 (빌드 속도 ↑, 이미지 크기 ↓)
+node_modules
+.git
+.github
+.omc
+.bkit
+**/.omc
+**/*.log
+.DS_Store
+Thumbs.db
+deploy/README.md
+yarn.lock
+package-lock.json
+.vscode

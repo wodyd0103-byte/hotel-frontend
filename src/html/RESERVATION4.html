@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STANDARD 예약 | kopo14 Hotel</title>
+    <script type="module" src="../js/Header.js"></script>
+    <script type="module" src="../js/Footer.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body data-room-id="1" data-checkin="2026-07-20" data-checkout="2026-07-22">
+    <my-header></my-header>
+
+    <section class="page-banner" style="background-image: url('../images/home3.jpg')">
+      <h2>RESERVATION</h2>
+      <p class="sub">실시간예약</p>
+    </section>
+
+    <main class="subpage">
+      <div class="section-head">
+        <h3>STANDARD</h3>
+      </div>
+
+      <div class="booking">
+        <!-- gallery -->
+        <div class="bk-gallery">
+          <img class="bk-main" id="bkMain" src="../images/room1.jpg" alt="STANDARD" />
+          <div class="bk-thumbs" id="bkThumbs">
+            <img src="../images/room1.jpg" alt="STANDARD 1" class="active" />
+            <img src="../images/room2.jpg" alt="STANDARD 2" />
+            <img src="../images/room3.jpg" alt="STANDARD 3" />
+            <img src="../images/room4.jpg" alt="STANDARD 4" />
+          </div>
+        </div>
+
+        <!-- calendar + summary -->
+        <div class="bk-panel">
+          <div class="cal-head">
+            <button id="calPrev" aria-label="이전 달">&lsaquo;</button>
+            <span class="cal-title" id="calTitle">2025년 05월</span>
+            <button id="calNext" aria-label="다음 달">&rsaquo;</button>
+          </div>
+          <table class="cal-grid" id="calGrid"></table>
+
+          <div class="bk-people">
+            <span>추가 인원</span>
+            <select id="extra"></select>
+            <span class="note"></span>
+          </div>
+
+          <div class="bk-total">
+            <span>총 합계</span>
+            <span><span class="amount" id="total">150,000</span> 원</span>
+          </div>
+
+          <div class="bk-actions">
+            <a class="btn-cancel" href="RESERVATION2.html">취소</a>
+            <button class="btn-book" id="bookBtn">예약하기</button>
+          </div>
+        </div>
+
+        <div class="bk-desc">
+          <p class="kr">스튜디오 타입 파스텔 톤 객실에 휴식을 취할 수 있는 테이블과 체어, 그리고 라탄 타입의 아늑한 체어를 완비한 가장 기본적인 룸입니다.</p>
+          <p class="en">A standard room is the most basic type of hotel room, typically offering a bed, a desk, and a private bathroom.</p>
+        </div>
+      </div>
+    </main>
+
+    <button id="topBtn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+      <img src="../images/TO TOP BUTTON.png" alt="맨 위로" />
+    </button>
+
+    <my-footer></my-footer>
+    <script src="../js/reservation.js"></script>
+  </body>
+</html>

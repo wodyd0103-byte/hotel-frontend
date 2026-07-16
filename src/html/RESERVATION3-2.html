@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DELUXE 예약 | kopo14 Hotel</title>
+    <script type="module" src="../js/Header.js"></script>
+    <script type="module" src="../js/Footer.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body data-room-id="2">
+    <my-header></my-header>
+
+    <section
+      class="page-banner"
+      style="background-image: url(&quot;../images/home3.jpg&quot;)"
+    >
+      <h2>RESERVATION</h2>
+      <p class="sub">실시간예약</p>
+    </section>
+
+    <main class="subpage">
+      <div class="section-head">
+        <h3>DELUXE</h3>
+      </div>
+
+      <div class="booking">
+        <!-- gallery -->
+        <div class="bk-gallery">
+          <img
+            class="bk-main"
+            id="bkMain"
+            src="../images/room2.jpg"
+            alt="DELUXE"
+          />
+          <div class="bk-thumbs" id="bkThumbs">
+            <img src="../images/room2.jpg" alt="DELUXE 1" class="active" />
+            <img src="../images/room3.jpg" alt="DELUXE 2" />
+            <img src="../images/room4.jpg" alt="DELUXE 3" />
+            <img src="../images/room5.jpg" alt="DELUXE 4" />
+          </div>
+        </div>
+
+        <!-- calendar + summary -->
+        <div class="bk-panel">
+          <div class="cal-head">
+            <button id="calPrev" aria-label="이전 달">&lsaquo;</button>
+            <span class="cal-title" id="calTitle">2025년 05월</span>
+            <button id="calNext" aria-label="다음 달">&rsaquo;</button>
+          </div>
+          <table class="cal-grid" id="calGrid"></table>
+
+          <div class="bk-people">
+            <span>추가 인원</span>
+            <select id="extra"></select>
+            <span class="note"></span>
+          </div>
+
+          <div class="bk-total">
+            <span>총 합계</span>
+            <span><span class="amount" id="total">180,000</span> 원</span>
+          </div>
+
+          <div class="bk-actions">
+            <a class="btn-cancel" href="RESERVATION2.html">취소</a>
+            <button class="btn-book" id="bookBtn">예약하기</button>
+          </div>
+        </div>
+
+        <div class="bk-desc">
+          <p class="kr">
+            한층 여유로운 공간과 킹 사이즈 베드, 그리고 도심 전망을 담은 큰 창을
+            갖춘 디럭스 룸입니다.
+          </p>
+          <p class="en">
+            A deluxe room offers more space and upgraded amenities for a relaxed
+            and comfortable stay.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <button
+      id="topBtn"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    >
+      <img src="../images/TO TOP BUTTON.png" alt="맨 위로" />
+    </button>
+
+    <my-footer></my-footer>
+    <script src="../js/reservation.js"></script>
+  </body>
+</html>

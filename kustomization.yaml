@@ -1,0 +1,29 @@
+# Kustomize 진입점 (프로젝트 루트)
+# ArgoCD(source.path: .) 가 이 파일을 찾아, 아래 리소스들을 한 번에 배포(Sync)한다.
+# 루트에 두는 이유: kustomize 보안 정책상 kustomization.yaml 과 같은 폴더(및 하위)의
+# 파일만 참조 가능 — db.json 이 루트에 있으므로 kustomization.yaml 도 루트에 둔다.
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: hotel
+
+# 배포할 매니페스트 목록 (k8s/ 폴더 안)
+resources:
+  - k8s/namespace.yaml
+  - k8s/deployment.yaml
+  - k8s/service.yaml
+  - k8s/ingress.yaml
+
+# db.json 파일에서 ConfigMap 자동 생성.
+# 파일 내용이 바뀌면 해시(접미사)도 바뀌어 → 자동으로 새 Pod 가 롤아웃된다(데이터 갱신 배포).
+configMapGenerator:
+  - name: hotel-db
+    files:
+      - db.json=db.json
+
+# CI(GitHub Actions)가 빌드 후 이 태그(newTag)를 새 커밋 SHA로 자동 갱신한다.
+# ArgoCD가 변경을 감지해 클러스터에 자동 배포 → "argocd/ci 배포"의 핵심 흐름.
+images:
+  - name: hotel-frontend            # deployment.yaml 에서 쓰는 가상 이미지명 (아래로 치환됨)
+    newName: ghcr.io/wodyd0103-byte/hotel-frontend   # ← TODO: 본인 GHCR owner 로 변경
+    newTag: latest                  # ← CI 가 커밋 SHA 로 덮어씀

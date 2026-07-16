@@ -1,0 +1,8176 @@
+/* Page Title */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+position: relative;
+width: 342px;
+height: 90px;
+
+/* RESERVATION */
+
+width: 342px;
+height: 50px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 50px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* 예약안내 */
+
+width: 86px;
+height: 25px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 25px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* INSTA */
+
+box-sizing: border-box;
+
+position: relative;
+width: 64px;
+height: 110px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=Default */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 17px;
+top: 20px;
+
+/* Instagram
+
+Keywords: logo, camera
+*/
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 2px solid #ffffff;
+
+/* state=hover */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 17px;
+top: 61px;
+
+/* Instagram
+
+Keywords: logo, camera
+*/
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 2px solid #818181;
+
+/* Facebook */
+
+box-sizing: border-box;
+
+position: relative;
+width: 70px;
+height: 110px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=Default */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 20px;
+top: 20px;
+
+/* Facebook
+
+Keywords: logo, social
+*/
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 29.17%;
+right: 25%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+
+/* state=hover */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 20px;
+top: 60px;
+
+/* Facebook
+
+Keywords: logo, social
+*/
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 29.17%;
+right: 25%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #818181;
+border: 1px solid #818181;
+
+/* Youtube */
+
+box-sizing: border-box;
+
+position: relative;
+width: 70px;
+height: 110px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=Default */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 20px;
+top: 20px;
+
+/* Youtube
+
+Keywords: logo, video, play
+*/
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 4.17%;
+right: 4.16%;
+top: 16.67%;
+bottom: 18.92%;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+
+/* Polygon 1 */
+
+position: absolute;
+width: 9px;
+height: 9px;
+left: calc(50% - 9px / 2 - 0.5px);
+top: calc(50% - 9px / 2 - 0.5px);
+
+background: #1d1d1d;
+transform: rotate(90deg);
+
+/* state=hover */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 20px;
+top: 60px;
+
+/* Youtube
+
+Keywords: logo, video, play
+*/
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 4.17%;
+right: 4.16%;
+top: 16.67%;
+bottom: 18.92%;
+
+background: #818181;
+border: 1px solid #818181;
+
+/* Polygon 1 */
+
+position: absolute;
+width: 9px;
+height: 9px;
+left: calc(50% - 9px / 2 - 0.5px);
+top: calc(50% - 9px / 2 - 0.5px);
+
+background: #1d1d1d;
+transform: rotate(90deg);
+
+/* slider btn */
+
+position: relative;
+width: 65px;
+height: 15px;
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 73.85%;
+right: 10.77%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 2 */
+
+position: absolute;
+left: 36.92%;
+right: 47.69%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 0%;
+right: 84.62%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* TEXT BUTTON */
+
+box-sizing: border-box;
+
+position: relative;
+width: 121px;
+height: 88px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=Default */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+position: absolute;
+width: 81px;
+height: 20px;
+left: 20px;
+top: 20px;
+
+/* TEXT BUTTON */
+
+width: 77px;
+height: 16px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=hover */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+position: absolute;
+width: 81px;
+height: 20px;
+left: 20px;
+top: 48px;
+
+/* TEXT BUTTON */
+
+width: 77px;
+height: 16px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #818181;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Fotter */
+
+position: relative;
+width: 2000px;
+height: 350px;
+
+background: #1d1d1d;
+
+/* Copyright ⓒ 2025 예약연습 All rights reserved. */
+
+position: absolute;
+width: 248px;
+left: calc(50% - 248px / 2);
+top: 84.57%;
+bottom: 10.86%;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 연락처 */
+
+position: absolute;
+width: 387px;
+height: 16px;
+left: calc(50% - 387px / 2 - 0.5px);
+top: 234px;
+
+/* 사업자등록번호 000-00-0000 */
+
+position: absolute;
+left: 40.3%;
+right: 52%;
+top: 66.86%;
+bottom: 28.57%;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 전화 012-345-6789 */
+
+position: absolute;
+left: 48.6%;
+right: 46%;
+top: 66.86%;
+bottom: 28.57%;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 팩스 01-234-5678 */
+
+position: absolute;
+left: 54.6%;
+right: 40.35%;
+top: 66.86%;
+bottom: 28.57%;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 경기 성남시 분당구 황새울로329번길 5 한국폴리텍대학 융합기술교육원 */
+
+position: absolute;
+width: 344px;
+left: calc(50% - 344px / 2);
+top: 60.86%;
+bottom: 34.57%;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 개인정보버튼 */
+
+position: absolute;
+width: 151px;
+height: 20px;
+left: calc(50% - 151px / 2 - 0.5px);
+top: 263px;
+
+/* TEXT BUTTON */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+position: absolute;
+width: 48px;
+left: calc(50% - 48px / 2 - 52px);
+top: 75.14%;
+bottom: 19.14%;
+
+/* TEXT BUTTON */
+
+width: 44px;
+height: 16px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* TEXT BUTTON */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+position: absolute;
+width: 91px;
+left: calc(50% - 91px / 2 + 29.5px);
+top: 75.14%;
+bottom: 19.14%;
+
+/* TEXT BUTTON */
+
+width: 87px;
+height: 16px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* sns */
+
+position: absolute;
+width: 120px;
+height: 30px;
+left: calc(50% - 120px / 2);
+top: 166px;
+
+/* Youtube */
+
+position: absolute;
+left: 51.5%;
+right: 47%;
+top: 47.43%;
+bottom: 44%;
+
+/* Youtube
+
+Keywords: logo, video, play
+*/
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 4.17%;
+right: 4.16%;
+top: 16.67%;
+bottom: 18.92%;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+
+/* Polygon 1 */
+
+position: absolute;
+width: 9px;
+height: 9px;
+left: calc(50% - 9px / 2 - 0.5px);
+top: calc(50% - 9px / 2 - 0.5px);
+
+background: #1d1d1d;
+transform: rotate(90deg);
+
+/* Facebook */
+
+position: absolute;
+left: 49.25%;
+right: 49.25%;
+top: 47.43%;
+bottom: 44%;
+
+/* Facebook
+
+Keywords: logo, social
+*/
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 29.17%;
+right: 25%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+
+/* INSTA */
+
+position: absolute;
+left: 47%;
+right: 51.5%;
+top: 47.43%;
+bottom: 44%;
+
+/* Instagram
+
+Keywords: logo, camera
+*/
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 2px solid #ffffff;
+
+/* H */
+
+position: absolute;
+width: 57px;
+left: calc(50% - 57px / 2 - 0.5px);
+top: 10.29%;
+bottom: 62.29%;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 96px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* TO TOP BUTTON */
+
+position: relative;
+width: 50px;
+height: 50px;
+
+background: #255f38;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+
+/* Line 1 */
+
+position: absolute;
+width: 22px;
+height: 0px;
+left: 14px;
+top: 10px;
+
+border: 3px solid #ffffff;
+
+/* Arrow 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 25px;
+height: 0px;
+left: 25px;
+top: 16px;
+
+border: 3px solid #ffffff;
+transform: rotate(-90deg);
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+position: relative;
+width: 100px;
+height: 50px;
+
+background: #ffffff;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table row */
+
+box-sizing: border-box;
+
+position: relative;
+width: 940px;
+height: 180px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=hover */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 900px;
+height: 54px;
+left: 20px;
+top: 110px;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #d8d8d8;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #d8d8d8;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #d8d8d8;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #d8d8d8;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #d8d8d8;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #d8d8d8;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #d8d8d8;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #d8d8d8;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #d8d8d8;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 8;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=default */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 900px;
+height: 54px;
+left: 20px;
+top: 20px;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #ffffff;
+border-width: 0px 1px 1px 1px;
+border-style: solid;
+border-color: #d8d8d8;
+border-radius: 0px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #ffffff;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #ffffff;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #ffffff;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #ffffff;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #ffffff;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #ffffff;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #ffffff;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Table cell */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 105px;
+gap: 10px;
+
+width: 100px;
+height: 54px;
+
+background: #ffffff;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 8;
+align-self: stretch;
+flex-grow: 1;
+
+/* TABLE */
+
+width: 39px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Hover Menu */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 131px;
+height: 200px;
+
+/* Menu */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 20px;
+gap: 10px;
+isolation: isolate;
+
+width: 131px;
+height: 50px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* MENU1 */
+
+width: 53px;
+height: 16px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+/* Menu */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 20px;
+gap: 10px;
+isolation: isolate;
+
+width: 131px;
+height: 50px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* MENU1 */
+
+width: 53px;
+height: 16px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+/* Menu */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 20px;
+gap: 10px;
+isolation: isolate;
+
+width: 131px;
+height: 50px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* MENU1 */
+
+width: 53px;
+height: 16px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+/* Menu */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 20px;
+gap: 10px;
+isolation: isolate;
+
+width: 131px;
+height: 50px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+/* MENU1 */
+
+width: 53px;
+height: 16px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+/* calendar cell */
+
+box-sizing: border-box;
+
+position: relative;
+width: 535px;
+height: 171px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=default */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+position: absolute;
+width: 80px;
+height: 60px;
+left: 20px;
+top: 20px;
+
+background: #ffffff;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=none */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+position: absolute;
+width: 80px;
+height: 60px;
+left: 148px;
+top: 20px;
+
+background: #ffffff;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #c7c7c7;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=holiday */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+position: absolute;
+width: 80px;
+height: 60px;
+left: 276px;
+top: 20px;
+
+background: #ffffff;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #ff635e;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=select end */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 2px;
+
+position: absolute;
+width: 80px;
+height: 60px;
+left: 276px;
+top: 94px;
+
+background: #30bd5e;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* 퇴실 */
+
+width: 21px;
+height: 12px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 12px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* state=select */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 2px;
+
+position: absolute;
+width: 80px;
+height: 60px;
+left: 148px;
+top: 94px;
+
+background: #30bd5e;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=select start */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 2px;
+
+position: absolute;
+width: 80px;
+height: 60px;
+left: 20px;
+top: 94px;
+
+background: #30bd5e;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* 입실 */
+
+width: 21px;
+height: 12px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 12px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* state=end */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 2px;
+
+position: absolute;
+width: 80px;
+height: 60px;
+left: 404px;
+top: 20px;
+
+background: #ffffff;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #c7c7c7;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* 예약완료 */
+
+width: 41px;
+height: 12px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 12px */
+display: flex;
+align-items: center;
+
+color: #ff635e;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* calendar header */
+
+box-sizing: border-box;
+
+position: relative;
+width: 275px;
+height: 100px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=default */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 46px;
+gap: 10px;
+
+position: absolute;
+width: 80px;
+height: 40px;
+left: 20px;
+top: 20px;
+
+background: #ffffff;
+
+/* 월 */
+
+width: 12px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=holiday */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 46px;
+gap: 10px;
+
+position: absolute;
+width: 80px;
+height: 40px;
+left: 144px;
+top: 20px;
+
+background: #ffffff;
+
+/* 일 */
+
+width: 12px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #ff635e;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar row */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: relative;
+width: 560px;
+height: 60px;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #ff635e;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 6;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar right */
+
+box-sizing: border-box;
+
+position: relative;
+width: 110px;
+height: 70px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=Default */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 20px;
+top: 20px;
+
+/* Chevron right */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 25%;
+bottom: 25%;
+
+border: 2px solid #000000;
+
+/* state=none */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 60px;
+top: 20px;
+
+/* Chevron right */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 25%;
+bottom: 25%;
+
+border: 2px solid #e4e4e4;
+
+/* calendar left */
+
+box-sizing: border-box;
+
+position: relative;
+width: 121px;
+height: 70px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=Default */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 20px;
+top: 20px;
+
+/* Chevron left */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 25%;
+bottom: 25%;
+
+border: 2px solid #000000;
+
+/* state=none */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 71px;
+top: 20px;
+
+/* Chevron left */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 25%;
+bottom: 25%;
+
+border: 2px solid #e4e4e4;
+
+/* Calendar */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 560px;
+height: 474px;
+
+background: #ffffff;
+
+/* Frame 17 */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 188px;
+gap: 10px;
+
+width: 560px;
+height: 70px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Group 18 */
+
+width: 183.19px;
+height: 24.84px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Frame 16 */
+
+position: absolute;
+width: 90px;
+height: 16px;
+left: calc(50% - 90px / 2 + 0.17px);
+top: calc(50% - 16px / 2 - 6.58px);
+
+/* 2025 */
+
+position: absolute;
+width: 37px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 년 */
+
+position: absolute;
+width: 14px;
+height: 16px;
+left: 37px;
+top: 0px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 05 */
+
+position: absolute;
+width: 19px;
+height: 16px;
+left: 59px;
+top: 0px;
+
+/* mtext */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 월 */
+
+position: absolute;
+width: 14px;
+height: 16px;
+left: 78px;
+top: 0px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* calendar left */
+
+position: absolute;
+left: 33.64%;
+right: 63.02%;
+top: 22.86%;
+bottom: 41.66%;
+
+background: #ffffff;
+
+/* Chevron left */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 25%;
+bottom: 25%;
+
+border: 2px solid #d8d8d8;
+
+/* calendar right */
+
+position: absolute;
+left: 63.02%;
+right: 33.64%;
+top: 22.86%;
+bottom: 41.66%;
+
+/* Chevron right */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Icon */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 25%;
+bottom: 25%;
+
+border: 2px solid #000000;
+
+/* Frame 19 */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 560px;
+height: 44px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* calendar header */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 46px;
+gap: 10px;
+
+width: 80px;
+height: 44px;
+
+background: #ffffff;
+border-top: 1px solid #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+/* 일 */
+
+width: 12px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #ff635e;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar header */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 46px;
+gap: 10px;
+
+width: 80px;
+height: 44px;
+
+background: #ffffff;
+border-top: 1px solid #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* 월 */
+
+width: 12px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar header */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 46px;
+gap: 10px;
+
+width: 80px;
+height: 44px;
+
+background: #ffffff;
+border-top: 1px solid #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+/* 월 */
+
+width: 12px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar header */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 46px;
+gap: 10px;
+
+width: 80px;
+height: 44px;
+
+background: #ffffff;
+border-top: 1px solid #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+/* 월 */
+
+width: 12px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar header */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 46px;
+gap: 10px;
+
+width: 80px;
+height: 44px;
+
+background: #ffffff;
+border-top: 1px solid #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+/* 월 */
+
+width: 12px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar header */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 46px;
+gap: 10px;
+
+width: 80px;
+height: 44px;
+
+background: #ffffff;
+border-top: 1px solid #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+/* 월 */
+
+width: 12px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar header */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 46px;
+gap: 10px;
+
+width: 80px;
+height: 44px;
+
+background: #ffffff;
+border-top: 1px solid #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 6;
+flex-grow: 1;
+
+/* 월 */
+
+width: 12px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Frame 16 */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 560px;
+height: 360px;
+
+background: #ffe4d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* calendar row */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 560px;
+height: 60px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+/* 1 */
+
+width: 17px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #ff635e;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* 1 */
+
+width: 17px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+/* 1 */
+
+width: 17px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+/* 1 */
+
+width: 17px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 6;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar row */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 560px;
+height: 60px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #ff635e;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 6;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar row */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 560px;
+height: 60px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #ff635e;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 6;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar row */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 560px;
+height: 60px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #ff635e;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 6;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar row */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 560px;
+height: 60px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #ff635e;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 6;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar row */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 560px;
+height: 60px;
+
+border-bottom: 1px solid #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #ff635e;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* calendar cell */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 63px;
+gap: 10px;
+
+width: 80px;
+height: 60px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 6;
+flex-grow: 1;
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 15px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* dropdown box */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 3px 5px 3px 15px;
+gap: 15px;
+
+position: relative;
+width: 125px;
+height: 30px;
+
+background: #ffffff;
+border: 0.5px solid #d8d8d8;
+
+/* dropdown */
+
+width: 66px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* arrow_drop_down */
+
+width: 24px;
+height: 24px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* icon */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+background: #d8d8d8;
+
+/* dropdown fill */
+
+box-sizing: border-box;
+
+position: relative;
+width: 307px;
+height: 70px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=Default */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 44px 0px 15px;
+gap: 10px;
+
+position: absolute;
+width: 133px;
+height: 30px;
+left: 20px;
+top: 20px;
+
+background: #ffffff;
+
+/* dropdown1 */
+
+width: 74px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=hover */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 44px 0px 15px;
+gap: 10px;
+
+position: absolute;
+width: 133px;
+height: 30px;
+left: 162px;
+top: 20px;
+
+background: #d8d8d8;
+
+/* dropdown1 */
+
+width: 74px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* dropdown overlay */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 133px;
+height: 120px;
+
+border: 1px solid #d8d8d8;
+
+/* dropdown fill */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 44px 0px 15px;
+gap: 10px;
+
+width: 133px;
+height: 30px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* dropdown1 */
+
+width: 74px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* dropdown fill */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 44px 0px 15px;
+gap: 10px;
+
+width: 133px;
+height: 30px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* dropdown1 */
+
+width: 74px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* dropdown fill */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 44px 0px 15px;
+gap: 10px;
+
+width: 133px;
+height: 30px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* dropdown1 */
+
+width: 74px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* dropdown fill */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 44px 0px 15px;
+gap: 10px;
+
+width: 133px;
+height: 30px;
+
+background: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+/* dropdown1 */
+
+width: 74px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* bg button */
+
+box-sizing: border-box;
+
+position: relative;
+width: 394px;
+height: 148px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=default */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 25px;
+gap: 10px;
+
+position: absolute;
+width: 104px;
+height: 44px;
+left: 20px;
+top: 20px;
+
+background: #1d1d1d;
+
+/* BUTTON */
+
+width: 54px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=hover */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 25px;
+gap: 10px;
+
+position: absolute;
+width: 104px;
+height: 44px;
+left: 147px;
+top: 20px;
+
+background: rgba(29, 29, 29, 0.5);
+
+/* BUTTON */
+
+width: 54px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=border */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 25px;
+gap: 10px;
+
+position: absolute;
+width: 104px;
+height: 44px;
+left: 270px;
+top: 20px;
+
+background: #ffffff;
+border: 1px solid #d8d8d8;
+
+/* BUTTON */
+
+width: 54px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=disabled */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 25px;
+gap: 10px;
+
+position: absolute;
+width: 104px;
+height: 44px;
+left: 20px;
+top: 84px;
+
+background: #818181;
+
+/* BUTTON */
+
+width: 54px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* ROOM Button 1 */
+
+box-sizing: border-box;
+
+position: relative;
+width: 1358px;
+height: 622px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=hover */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 97px 308px;
+gap: 30px;
+
+position: absolute;
+width: 1316px;
+height: 266px;
+left: 20px;
+top: 336px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(bed-with-white-duvet-black-cushion_1203-549.jpg);
+border-radius: 2px 0px 0px 2px;
+
+/* STANDARD */
+
+width: 348px;
+height: 78px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 78px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Group 21 */
+
+width: 160.46px;
+height: 37.41px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Line 2 */
+
+position: absolute;
+width: 158.86px;
+height: 0px;
+left: 766.77px;
+top: 132.7px;
+
+border: 5px solid #ffffff;
+transform: rotate(0.11deg);
+
+/* Line 3 */
+
+position: absolute;
+width: 28.05px;
+height: 0px;
+left: 906.27px;
+top: 114.3px;
+
+border: 5px solid #ffffff;
+transform: rotate(41.64deg);
+
+/* Line 5 */
+
+position: absolute;
+width: 28px;
+height: 0px;
+left: 906.06px;
+top: 133.1px;
+
+transform: matrix(0.75, -0.66, -0.66, -0.75, 0, 0);
+
+/* state=Default */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 97px 308px;
+gap: 30px;
+
+position: absolute;
+width: 1316px;
+height: 266px;
+left: 22px;
+top: 20px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(bed-with-white-duvet-black-cushion_1203-549.jpg);
+border-radius: 2px 0px 0px 2px;
+
+/* STANDARD */
+
+width: 321px;
+height: 72px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Group 21 */
+
+width: 160.46px;
+height: 37.41px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Line 2 */
+
+position: absolute;
+width: 158.86px;
+height: 0px;
+left: 753.27px;
+top: 132.7px;
+
+border: 3.9px solid #ffffff;
+transform: rotate(0.11deg);
+
+/* Line 3 */
+
+position: absolute;
+width: 28.05px;
+height: 0px;
+left: 892.77px;
+top: 114.3px;
+
+border: 4px solid #ffffff;
+transform: rotate(41.64deg);
+
+/* Line 5 */
+
+position: absolute;
+width: 28px;
+height: 0px;
+left: 892.56px;
+top: 133.1px;
+
+transform: matrix(0.75, -0.66, -0.66, -0.75, 0, 0);
+
+/* ROOM Button 2 */
+
+box-sizing: border-box;
+
+position: relative;
+width: 1358px;
+height: 622px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=hover */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 97px 308px;
+gap: 30px;
+
+position: absolute;
+width: 1316px;
+height: 266px;
+left: 20px;
+top: 336px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(3d-rendering-luxury-bedroom-suite-resort-hotel-with-twin-bed-living_105762-2018.jpg);
+border-radius: 2px 0px 0px 2px;
+
+/* DELUXE */
+
+width: 245px;
+height: 78px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 78px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Group 21 */
+
+width: 160.46px;
+height: 37.41px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Line 2 */
+
+position: absolute;
+width: 158.86px;
+height: 0px;
+left: 715.27px;
+top: 132.7px;
+
+border: 5px solid #ffffff;
+transform: rotate(0.11deg);
+
+/* Line 3 */
+
+position: absolute;
+width: 28.05px;
+height: 0px;
+left: 854.77px;
+top: 114.3px;
+
+border: 5px solid #ffffff;
+transform: rotate(41.64deg);
+
+/* Line 5 */
+
+position: absolute;
+width: 28px;
+height: 0px;
+left: 854.56px;
+top: 133.1px;
+
+transform: matrix(0.75, -0.66, -0.66, -0.75, 0, 0);
+
+/* state=Default */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 97px 308px;
+gap: 30px;
+
+position: absolute;
+width: 1316px;
+height: 266px;
+left: 22px;
+top: 20px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(3d-rendering-luxury-bedroom-suite-resort-hotel-with-twin-bed-living_105762-2018.jpg);
+border-radius: 2px 0px 0px 2px;
+
+/* DELUXE */
+
+width: 226px;
+height: 72px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Group 21 */
+
+width: 160.46px;
+height: 37.41px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Line 2 */
+
+position: absolute;
+width: 158.86px;
+height: 0px;
+left: 705.77px;
+top: 132.7px;
+
+border: 3.9px solid #ffffff;
+transform: rotate(0.11deg);
+
+/* Line 3 */
+
+position: absolute;
+width: 28.05px;
+height: 0px;
+left: 845.27px;
+top: 114.3px;
+
+border: 4px solid #ffffff;
+transform: rotate(41.64deg);
+
+/* Line 5 */
+
+position: absolute;
+width: 28px;
+height: 0px;
+left: 845.06px;
+top: 133.1px;
+
+transform: matrix(0.75, -0.66, -0.66, -0.75, 0, 0);
+
+/* ROOM Button 3 */
+
+box-sizing: border-box;
+
+position: relative;
+width: 1358px;
+height: 622px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=hover */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 97px 308px;
+gap: 30px;
+
+position: absolute;
+width: 1316px;
+height: 266px;
+left: 20px;
+top: 336px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg);
+border-radius: 2px 0px 0px 2px;
+
+/* PREMIUM */
+
+width: 284px;
+height: 72px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Group 21 */
+
+width: 160.46px;
+height: 37.41px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Line 2 */
+
+position: absolute;
+width: 158.86px;
+height: 0px;
+left: 734.77px;
+top: 132.7px;
+
+border: 5px solid #ffffff;
+transform: rotate(0.11deg);
+
+/* Line 3 */
+
+position: absolute;
+width: 28.05px;
+height: 0px;
+left: 874.27px;
+top: 114.3px;
+
+border: 5px solid #ffffff;
+transform: rotate(41.64deg);
+
+/* Line 5 */
+
+position: absolute;
+width: 28px;
+height: 0px;
+left: 874.06px;
+top: 133.1px;
+
+transform: matrix(0.75, -0.66, -0.66, -0.75, 0, 0);
+
+/* state=Default */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 97px 308px;
+gap: 30px;
+
+position: absolute;
+width: 1316px;
+height: 266px;
+left: 22px;
+top: 20px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg);
+border-radius: 2px 0px 0px 2px;
+
+/* PREMIUM */
+
+width: 284px;
+height: 72px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Group 21 */
+
+width: 160.46px;
+height: 37.41px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Line 2 */
+
+position: absolute;
+width: 158.86px;
+height: 0px;
+left: 734.77px;
+top: 132.7px;
+
+border: 3.9px solid #ffffff;
+transform: rotate(0.11deg);
+
+/* Line 3 */
+
+position: absolute;
+width: 28.05px;
+height: 0px;
+left: 874.27px;
+top: 114.3px;
+
+border: 4px solid #ffffff;
+transform: rotate(41.64deg);
+
+/* Line 5 */
+
+position: absolute;
+width: 28px;
+height: 0px;
+left: 874.06px;
+top: 133.1px;
+
+transform: matrix(0.75, -0.66, -0.66, -0.75, 0, 0);
+
+/* ROOM Button 4 */
+
+box-sizing: border-box;
+
+position: relative;
+width: 1358px;
+height: 622px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=hover */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 97px 308px;
+gap: 30px;
+
+position: absolute;
+width: 1316px;
+height: 266px;
+left: 20px;
+top: 336px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(room-with-two-beds-wall-mural-that-says-cherry-blossom-it_889227-9306.jpg);
+border-radius: 2px 0px 0px 2px;
+
+/* SWEET */
+
+width: 213px;
+height: 78px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 78px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Group 21 */
+
+width: 160.46px;
+height: 37.41px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Line 2 */
+
+position: absolute;
+width: 158.86px;
+height: 0px;
+left: 699.27px;
+top: 132.7px;
+
+border: 5px solid #ffffff;
+transform: rotate(0.11deg);
+
+/* Line 3 */
+
+position: absolute;
+width: 28.05px;
+height: 0px;
+left: 838.77px;
+top: 114.3px;
+
+border: 5px solid #ffffff;
+transform: rotate(41.64deg);
+
+/* Line 5 */
+
+position: absolute;
+width: 28px;
+height: 0px;
+left: 838.56px;
+top: 133.1px;
+
+transform: matrix(0.75, -0.66, -0.66, -0.75, 0, 0);
+
+/* state=Default */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 97px 308px;
+gap: 30px;
+
+position: absolute;
+width: 1316px;
+height: 266px;
+left: 22px;
+top: 20px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(room-with-two-beds-wall-mural-that-says-cherry-blossom-it_889227-9306.jpg);
+border-radius: 2px 0px 0px 2px;
+
+/* SWEET */
+
+width: 196px;
+height: 72px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Group 21 */
+
+width: 160.46px;
+height: 37.41px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Line 2 */
+
+position: absolute;
+width: 158.86px;
+height: 0px;
+left: 690.77px;
+top: 132.7px;
+
+border: 3.9px solid #ffffff;
+transform: rotate(0.11deg);
+
+/* Line 3 */
+
+position: absolute;
+width: 28.05px;
+height: 0px;
+left: 830.27px;
+top: 114.3px;
+
+border: 4px solid #ffffff;
+transform: rotate(41.64deg);
+
+/* Line 5 */
+
+position: absolute;
+width: 28px;
+height: 0px;
+left: 830.06px;
+top: 133.1px;
+
+transform: matrix(0.75, -0.66, -0.66, -0.75, 0, 0);
+
+/* Home IMG slider */
+
+box-sizing: border-box;
+
+position: relative;
+width: 2151px;
+height: 2682px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* Property 1=slider3 */
+
+position: absolute;
+width: 2000px;
+height: 800px;
+left: 20px;
+top: 1862px;
+
+background: #ffffff;
+
+/* img 1 */
+
+position: absolute;
+width: 2000px;
+height: 800px;
+left: -4000px;
+top: 0px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(close-up-romantic-breakfast-bed-arrangement_23-2150956528.jpg);
+
+/* Group 23 */
+
+position: absolute;
+width: 481px;
+height: 140px;
+left: calc(50% - 481px / 2 - 0.5px);
+top: calc(50% - 140px / 2);
+
+/* SWEET MOMENT */
+
+position: absolute;
+width: 481px;
+height: 72px;
+left: 759px;
+top: 330px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* border btn */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 24px;
+gap: 10px;
+
+position: absolute;
+width: 147px;
+height: 48px;
+left: 926px;
+top: 422px;
+
+border: 1px solid #ffffff;
+border-radius: 2px;
+
+/* SEE MORE */
+
+width: 99px;
+height: 26px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 120%;
+/* 또는 26px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* slider btn */
+
+position: absolute;
+width: 65px;
+height: 15px;
+left: calc(50% - 65px / 2 - 0.5px);
+bottom: 35px;
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 73.85%;
+right: 10.77%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 2 */
+
+position: absolute;
+left: 36.92%;
+right: 47.69%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 0%;
+right: 84.62%;
+top: 0%;
+bottom: 33.33%;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+
+/* img 2 */
+
+position: absolute;
+width: 2000px;
+height: 800px;
+left: -2000px;
+top: 0px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(type-entertainment-complex-popular-resort-with-pools-water-parks-turkey-with-more-than-5-million-visitors-year-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer_146671-18728.jpg);
+
+/* Group 23 */
+
+position: absolute;
+width: 465px;
+height: 140px;
+left: calc(50% - 465px / 2 - 0.5px);
+top: calc(50% - 140px / 2);
+
+/* URBAN RESORT */
+
+position: absolute;
+width: 465px;
+height: 72px;
+left: 767px;
+top: 330px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* border btn */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 24px;
+gap: 10px;
+
+position: absolute;
+width: 147px;
+height: 48px;
+left: 934px;
+top: 422px;
+
+border: 1px solid #ffffff;
+border-radius: 2px;
+
+/* SEE MORE */
+
+width: 99px;
+height: 26px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 120%;
+/* 또는 26px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* slider btn */
+
+position: absolute;
+width: 65px;
+height: 15px;
+left: calc(50% - 65px / 2 - 0.5px);
+bottom: 35px;
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 73.85%;
+right: 10.77%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 2 */
+
+position: absolute;
+left: 36.92%;
+right: 47.69%;
+top: 0%;
+bottom: 33.33%;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 0%;
+right: 84.62%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* img 3 */
+
+position: absolute;
+width: 2000px;
+height: 800px;
+left: 0px;
+top: 0px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(spa-salon-with-beach-view_53876-31335.jpg);
+
+/* Group 23 */
+
+position: absolute;
+width: 456px;
+height: 140px;
+left: calc(50% - 456px / 2);
+top: calc(50% - 140px / 2);
+
+/* RELAX & RELIEF */
+
+position: absolute;
+width: 456px;
+height: 72px;
+left: 772px;
+top: 330px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* border btn */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 24px;
+gap: 10px;
+
+position: absolute;
+width: 147px;
+height: 48px;
+left: 939px;
+top: 422px;
+
+border: 1px solid #ffffff;
+border-radius: 2px;
+
+/* SEE MORE */
+
+width: 99px;
+height: 26px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 120%;
+/* 또는 26px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* slider btn */
+
+position: absolute;
+width: 65px;
+height: 15px;
+left: calc(50% - 65px / 2 - 0.5px);
+bottom: 35px;
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 73.85%;
+right: 10.77%;
+top: 0%;
+bottom: 33.33%;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+
+/* Ellipse 2 */
+
+position: absolute;
+left: 36.92%;
+right: 47.69%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 0%;
+right: 84.62%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Property 1=slider2 */
+
+position: absolute;
+width: 2000px;
+height: 800px;
+left: 20px;
+top: 941px;
+
+background: #ffffff;
+
+/* img 1 */
+
+position: absolute;
+width: 2000px;
+height: 800px;
+left: -2000px;
+top: 0px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(close-up-romantic-breakfast-bed-arrangement_23-2150956528.jpg);
+
+/* Group 23 */
+
+position: absolute;
+width: 481px;
+height: 140px;
+left: calc(50% - 481px / 2 - 0.5px);
+top: calc(50% - 140px / 2);
+
+/* SWEET MOMENT */
+
+position: absolute;
+width: 481px;
+height: 72px;
+left: 759px;
+top: 330px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* border btn */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 24px;
+gap: 10px;
+
+position: absolute;
+width: 147px;
+height: 48px;
+left: 926px;
+top: 422px;
+
+border: 1px solid #ffffff;
+border-radius: 2px;
+
+/* SEE MORE */
+
+width: 99px;
+height: 26px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 120%;
+/* 또는 26px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* slider btn */
+
+position: absolute;
+width: 65px;
+height: 15px;
+left: calc(50% - 65px / 2 - 0.5px);
+bottom: 35px;
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 73.85%;
+right: 10.77%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 2 */
+
+position: absolute;
+left: 36.92%;
+right: 47.69%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 0%;
+right: 84.62%;
+top: 0%;
+bottom: 33.33%;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+
+/* img 2 */
+
+position: absolute;
+width: 2000px;
+height: 800px;
+left: 0px;
+top: 0px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(type-entertainment-complex-popular-resort-with-pools-water-parks-turkey-with-more-than-5-million-visitors-year-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer_146671-18728.jpg);
+
+/* Group 23 */
+
+position: absolute;
+width: 465px;
+height: 140px;
+left: calc(50% - 465px / 2 - 0.5px);
+top: calc(50% - 140px / 2);
+
+/* URBAN RESORT */
+
+position: absolute;
+width: 465px;
+height: 72px;
+left: 767px;
+top: 330px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* border btn */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 24px;
+gap: 10px;
+
+position: absolute;
+width: 147px;
+height: 48px;
+left: 934px;
+top: 422px;
+
+border: 1px solid #ffffff;
+border-radius: 2px;
+
+/* SEE MORE */
+
+width: 99px;
+height: 26px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 120%;
+/* 또는 26px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* slider btn */
+
+position: absolute;
+width: 65px;
+height: 15px;
+left: calc(50% - 65px / 2 - 0.5px);
+bottom: 35px;
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 73.85%;
+right: 10.77%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 2 */
+
+position: absolute;
+left: 36.92%;
+right: 47.69%;
+top: 0%;
+bottom: 33.33%;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 0%;
+right: 84.62%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* img 3 */
+
+position: absolute;
+width: 2000px;
+height: 800px;
+left: 2000px;
+top: 0px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(spa-salon-with-beach-view_53876-31335.jpg);
+
+/* Group 23 */
+
+position: absolute;
+width: 456px;
+height: 140px;
+left: calc(50% - 456px / 2);
+top: calc(50% - 140px / 2);
+
+/* RELAX & RELIEF */
+
+position: absolute;
+width: 456px;
+height: 72px;
+left: 772px;
+top: 330px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* border btn */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 24px;
+gap: 10px;
+
+position: absolute;
+width: 147px;
+height: 48px;
+left: 939px;
+top: 422px;
+
+border: 1px solid #ffffff;
+border-radius: 2px;
+
+/* SEE MORE */
+
+width: 99px;
+height: 26px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 120%;
+/* 또는 26px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* slider btn */
+
+position: absolute;
+width: 65px;
+height: 15px;
+left: calc(50% - 65px / 2 - 0.5px);
+bottom: 35px;
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 73.85%;
+right: 10.77%;
+top: 0%;
+bottom: 33.33%;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+
+/* Ellipse 2 */
+
+position: absolute;
+left: 36.92%;
+right: 47.69%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 0%;
+right: 84.62%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Property 1=slider1 */
+
+position: absolute;
+width: 2000px;
+height: 800px;
+left: 12px;
+top: 20px;
+
+background: #ffffff;
+
+/* img 1 */
+
+position: absolute;
+width: 2000px;
+height: 800px;
+left: 0px;
+top: 0px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(close-up-romantic-breakfast-bed-arrangement_23-2150956528.jpg);
+
+/* Group 23 */
+
+position: absolute;
+width: 481px;
+height: 140px;
+left: calc(50% - 481px / 2 - 0.5px);
+top: calc(50% - 140px / 2);
+
+/* SWEET MOMENT */
+
+position: absolute;
+width: 481px;
+height: 72px;
+left: 759px;
+top: 330px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* border btn */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 24px;
+gap: 10px;
+
+position: absolute;
+width: 147px;
+height: 48px;
+left: 926px;
+top: 422px;
+
+border: 1px solid #ffffff;
+border-radius: 2px;
+
+/* SEE MORE */
+
+width: 99px;
+height: 26px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 120%;
+/* 또는 26px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* slider btn */
+
+position: absolute;
+width: 65px;
+height: 15px;
+left: calc(50% - 65px / 2 - 0.5px);
+bottom: 35px;
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 73.85%;
+right: 10.77%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 2 */
+
+position: absolute;
+left: 36.92%;
+right: 47.69%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 0%;
+right: 84.62%;
+top: 0%;
+bottom: 33.33%;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+
+/* img 2 */
+
+position: absolute;
+width: 2000px;
+height: 800px;
+left: 2000px;
+top: 0px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(type-entertainment-complex-popular-resort-with-pools-water-parks-turkey-with-more-than-5-million-visitors-year-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer_146671-18728.jpg);
+
+/* Group 23 */
+
+position: absolute;
+width: 465px;
+height: 140px;
+left: calc(50% - 465px / 2 - 0.5px);
+top: calc(50% - 140px / 2);
+
+/* URBAN RESORT */
+
+position: absolute;
+width: 465px;
+height: 72px;
+left: 767px;
+top: 330px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* border btn */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 24px;
+gap: 10px;
+
+position: absolute;
+width: 147px;
+height: 48px;
+left: 934px;
+top: 422px;
+
+border: 1px solid #ffffff;
+border-radius: 2px;
+
+/* SEE MORE */
+
+width: 99px;
+height: 26px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 120%;
+/* 또는 26px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* slider btn */
+
+position: absolute;
+width: 65px;
+height: 15px;
+left: calc(50% - 65px / 2 - 0.5px);
+bottom: 35px;
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 73.85%;
+right: 10.77%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 2 */
+
+position: absolute;
+left: 36.92%;
+right: 47.69%;
+top: 0%;
+bottom: 33.33%;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 0%;
+right: 84.62%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* img 3 */
+
+position: absolute;
+width: 2000px;
+height: 800px;
+left: 4000px;
+top: 0px;
+
+background:
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(spa-salon-with-beach-view_53876-31335.jpg);
+
+/* Group 23 */
+
+position: absolute;
+width: 456px;
+height: 140px;
+left: calc(50% - 456px / 2);
+top: calc(50% - 140px / 2);
+
+/* RELAX & RELIEF */
+
+position: absolute;
+width: 456px;
+height: 72px;
+left: 772px;
+top: 330px;
+
+/* btitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+/* 상자 높이와 동일 또는 72px */
+display: flex;
+align-items: center;
+
+color: #ffffff;
+
+/* border btn */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 24px;
+gap: 10px;
+
+position: absolute;
+width: 147px;
+height: 48px;
+left: 939px;
+top: 422px;
+
+border: 1px solid #ffffff;
+border-radius: 2px;
+
+/* SEE MORE */
+
+width: 99px;
+height: 26px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 120%;
+/* 또는 26px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* slider btn */
+
+position: absolute;
+width: 65px;
+height: 15px;
+left: calc(50% - 65px / 2 - 0.5px);
+bottom: 35px;
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 73.85%;
+right: 10.77%;
+top: 0%;
+bottom: 33.33%;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+
+/* Ellipse 2 */
+
+position: absolute;
+left: 36.92%;
+right: 47.69%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 0%;
+right: 84.62%;
+top: 0%;
+bottom: 33.33%;
+
+border: 1px solid #ffffff;
+
+/* textinput */
+
+box-sizing: border-box;
+
+position: relative;
+width: 490px;
+height: 223px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=err */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 15px;
+gap: 10px;
+
+position: absolute;
+width: 450px;
+height: 34px;
+left: 20px;
+top: 93px;
+overflow-x: scroll;
+
+background: #ffffff;
+border: 1px solid #ff0000;
+
+/* placeholder */
+
+width: 78px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #818181;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=Default */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 15px;
+gap: 10px;
+
+position: absolute;
+width: 450px;
+height: 34px;
+left: 20px;
+top: 20px;
+overflow-x: scroll;
+
+background: #ffffff;
+border: 1px solid #d8d8d8;
+
+/* placeholder */
+
+width: 78px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #818181;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=read only */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 15px;
+gap: 10px;
+
+position: absolute;
+width: 450px;
+height: 34px;
+left: 20px;
+top: 166px;
+overflow-x: scroll;
+
+background: #efefef;
+border: 1px solid #d8d8d8;
+
+/* read only */
+
+width: 60px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Textinput label view */
+
+box-sizing: border-box;
+
+position: relative;
+width: 709px;
+height: 350px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=read only */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 7px 30px;
+gap: 36px;
+
+position: absolute;
+width: 669px;
+height: 48px;
+left: 20px;
+top: 240px;
+
+/* label+input */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 609px;
+height: 34px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+/* label */
+
+width: 100px;
+height: 34px;
+
+/* mtitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 120%;
+/* 또는 24px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* textinput */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 15px;
+gap: 10px;
+
+width: 489px;
+height: 34px;
+overflow-x: scroll;
+
+background: #efefef;
+border: 1px solid #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* read only */
+
+width: 60px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=err */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 7px 30px;
+gap: 8px;
+
+position: absolute;
+width: 669px;
+height: 79px;
+left: 20px;
+top: 130px;
+
+/* label+input */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 609px;
+height: 34px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* label */
+
+width: 100px;
+height: 34px;
+
+/* mtitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 120%;
+/* 또는 24px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* textinput */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 15px;
+gap: 10px;
+
+width: 489px;
+height: 34px;
+overflow-x: scroll;
+
+background: #ffffff;
+border: 1px solid #ff0000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* placeholder */
+
+width: 78px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #818181;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* guide */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 609px;
+height: 23px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* blank */
+
+width: 100px;
+height: 23px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* 오류 발생 메세지 */
+
+width: 489px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #ff0000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* state=Default */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 7px 30px;
+gap: 36px;
+
+position: absolute;
+width: 669px;
+height: 48px;
+left: 20px;
+top: 20px;
+
+/* label+input */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 609px;
+height: 34px;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+/* label */
+
+width: 100px;
+height: 34px;
+
+/* mtitle */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 120%;
+/* 또는 24px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* textinput */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 15px;
+gap: 10px;
+
+width: 489px;
+height: 34px;
+overflow-x: scroll;
+
+background: #ffffff;
+border: 1px solid #d8d8d8;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* placeholder */
+
+width: 78px;
+height: 14px;
+
+/* normal */
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 14px */
+display: flex;
+align-items: center;
+
+color: #818181;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Menu */
+
+box-sizing: border-box;
+
+position: relative;
+width: 177px;
+height: 160px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=default */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 20px;
+gap: 10px;
+isolation: isolate;
+
+position: absolute;
+width: 131px;
+height: 50px;
+left: 20px;
+top: 20px;
+
+background: #ffffff;
+
+/* MENU1 */
+
+width: 53px;
+height: 16px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+/* state=hover */
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 20px;
+gap: 10px;
+isolation: isolate;
+
+position: absolute;
+width: 131px;
+height: 50px;
+left: 20px;
+top: 89px;
+
+background: #ffffff;
+
+/* MENU1 */
+
+width: 53px;
+height: 16px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 100%;
+/* 상자 높이와 동일 또는 16px */
+display: flex;
+align-items: center;
+
+color: #818181;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+/* border btn */
+
+box-sizing: border-box;
+
+position: relative;
+width: 187px;
+height: 156px;
+
+border: 1px dashed #9747ff;
+border-radius: 5px;
+
+/* state=Default */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 24px;
+gap: 10px;
+
+position: absolute;
+width: 147px;
+height: 48px;
+left: 20px;
+top: 20px;
+
+border: 1px solid #ffffff;
+border-radius: 2px;
+
+/* SEE MORE */
+
+width: 99px;
+height: 26px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 120%;
+/* 또는 26px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* state=hover */
+
+box-sizing: border-box;
+
+/* 오토레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 24px;
+gap: 10px;
+
+position: absolute;
+width: 147px;
+height: 48px;
+left: 20px;
+top: 88px;
+
+background: #ffffff;
+border: 1px solid #ffffff;
+border-radius: 2px;
+
+/* SEE MORE */
+
+width: 99px;
+height: 26px;
+
+font-family: "KOROAD";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 120%;
+/* 또는 26px */
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: rgba(0, 0, 0, 0.6);
+
+/* 내부 오토레이아웃 */
+flex: none;
+order: 0;
+flex-grow: 0;

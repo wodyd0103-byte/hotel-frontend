@@ -1,0 +1,23 @@
+# ArgoCD Application (GitOps)
+# 이 파일을 클러스터에 적용하면, ArgoCD가 Git 저장소의 k8s/ 폴더를 감시하고
+# 코드/매니페스트가 바뀔 때마다 자동으로 클러스터에 배포(Sync)한다.
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: hotel-frontend
+  namespace: argocd            # ← ArgoCD 가 설치된 네임스페이스
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/wodyd0103-byte/frontend-study.git   # ← TODO: 본인 저장소로 변경
+    targetRevision: main
+    path: .                    # 루트의 kustomization.yaml 사용
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: hotel
+  syncPolicy:
+    automated:                 # 자동 동기화(수동 클릭 불필요)
+      prune: true              # Git 에서 삭제된 리소스를 클러스터에서도 제거
+      selfHeal: true           # 누군가 클러스터를 수동으로 고쳐도 Git 기준으로 되돌림
+    syncOptions:
+      - CreateNamespace=true   # hotel 네임스페이스가 없으면 자동 생성

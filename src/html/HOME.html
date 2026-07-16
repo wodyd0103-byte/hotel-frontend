@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kopo14 Hotel Project</title>
+    <script type="module" src="../js/Header.js"></script>
+    <script type="module" src="../js/Footer.js"></script>
+    <script src="../js/HOME.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <my-header></my-header>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="../images/home1.jpg" alt="home1" />
+          <div class="slide-text">
+            <h2>SWEET MOMENT</h2>
+            <a href="" class="slide-btn"> SEE MORE </a>
+          </div>
+        </div>
+        <div class="swiper-slide" img="../images/home2.jpg">
+          <img src="../images/home2.jpg" alt="home2" />
+          <div class="slide-text">
+            <h2>URBAN RESORT</h2>
+            <a href="" class="slide-btn"> SEE MORE </a>
+          </div>
+        </div>
+        <div class="swiper-slide" img="../images/home3.jpg">
+          <img src="../images/home3.jpg" alt="home3" />
+          <div class="slide-text">
+            <h2>RELAX & RELIEF</h2>
+            <a href="" class="slide-btn"> SEE MORE </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        pagination: { el: ".swiper-pagination", clickable: true },
+        autoplay: { delay: 4000, disableOnInteraction: false },
+      });
+    </script>
+    <button
+      id="topBtn"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    >
+      <img src="../images/TO TOP BUTTON.png" alt="topbtn" />
+    </button>
+
+    <section class="rooms" id="rooms">
+      <h2>ROOMS</h2>
+
+      <div class="room-grid swiper">
+        <div class="swiper-wrapper">
+          <article class="room-card swiper-slide">
+            <img src="../images/room1.jpg" alt="Standard Twin" class="zoom-img" />
+          </article>
+          <article class="room-card swiper-slide">
+            <img
+              src="../images/room2.jpg"
+              alt="Superior Double"
+              class="zoom-img"
+            />
+          </article>
+          <article class="room-card swiper-slide">
+            <img src="../images/room3.jpg" alt="Deluxe Ocean" class="zoom-img" />
+          </article>
+          <article class="room-card swiper-slide">
+            <img src="../images/room4.jpg" alt="Family Suite" class="zoom-img" />
+          </article>
+          <article class="room-card swiper-slide">
+            <img src="../images/room5.jpg" alt="Premier Suite" class="zoom-img" />
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div id="imgModal" class="modal">
+      <img id="modalImg" alt="확대 이미지" />
+    </div>
+
+    <section class="event">
+      <h2>EVENT</h2>
+
+      <div class="event-grid swiper">
+        <div class="swiper-wrapper">
+          <article class="event-card swiper-slide">
+            <img src="../images/event1.jpg" alt="event1" />
+            <p>봄 특가 이벤트</p>
+          </article>
+
+          <article class="event-card swiper-slide">
+            <img src="../images/event2.jpg" alt="event2" />
+            <p>5월 주요행사</p>
+          </article>
+
+          <article class="event-card swiper-slide">
+            <img src="../images/event3.jpg" alt="event3" />
+            <p>새로운 객실을 기대해 주세요.</p>
+          </article>
+
+          <article class="event-card swiper-slide">
+            <img src="../images/event4.jpg" alt="event4" />
+            <p>스파 프로그램 할인</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom-title">
+      <div class="bottom-inner">
+        <svg class="badge" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <!-- <circle cx="24" cy="19" r="13" stroke="currentColor" stroke-width="1.6" />
+          <circle cx="24" cy="19" r="8.5" stroke="currentColor" stroke-width="1" />
+          <path d="M24 14l1.6 3.3 3.6.5-2.6 2.5.6 3.6-3.2-1.7-3.2 1.7.6-3.6-2.6-2.5 3.6-.5z" fill="currentColor" />
+          <path d="M18 30l-3 12 9-5 9 5-3-12" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" /> -->
+        </svg>
+        <img src="../images/badge.png" alt="event4" />
+        <div class="title-row">
+          <span class="line"></span>
+          <h2>2024 BEST HOTEL</h2>
+          <span class="line"></span>
+        </div>
+        <p>
+          Can one ever remember love<br />
+          Its like trying to summon up<br />
+          the smell of rose sin a cellar.<br />
+          you might see a rose, but never the perfume.
+        </p>
+      </div>
+    </section>
+
+    <my-footer></my-footer>
+  </body>
+</html>

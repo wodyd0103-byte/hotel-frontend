@@ -1,0 +1,78 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hotel-frontend
+  namespace: hotel
+  labels:
+    app: hotel-frontend
+spec:
+  replicas: 2                      # 2개 복제로 가용성 확보
+  selector:
+    matchLabels:
+      app: hotel-frontend
+  strategy:
+    type: RollingUpdate            # 무중단 배포: 새 Pod가 뜬 뒤 구 Pod 교체
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: hotel-frontend
+    spec:
+      # 1) 초기화 컨테이너: ConfigMap(db.json)을 쓰기 가능한 emptyDir 로 복사.
+      #    json-server 가 예약 저장 등 데이터를 변경하려면 read-write 영역이 필요하므로
+      #    읽기 전용인 ConfigMap 을 그대로 쓰지 않고 복사해서 사용한다.
+      initContainers:
+        - name: init-db
+          image: busybox:1.36
+          command:
+            - sh
+            - -c
+            - 'cp /config/db.json /data/db.json && echo "[init] db.json 복사 완료"'
+          volumeMounts:
+            - name: db-config
+              mountPath: /config
+            - name: db-data
+              mountPath: /data
+      containers:
+        - name: hotel-frontend
+          # kustomize 의 images 섹션이 이 이름(hotel-frontend)을 실제 레지스트리 이미지로 치환한다.
+          image: hotel-frontend
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 3000
+          env:
+            - name: TZ
+              value: Asia/Seoul
+          # 2) 헬스체크: json-server 의 /db 엔드포인트(전체 DB 반환)는 항상 200 OK.
+          livenessProbe:
+            httpGet:
+              path: /db
+              port: 3000
+            initialDelaySeconds: 10
+            periodSeconds: 20
+            failureThreshold: 3
+          readinessProbe:
+            httpGet:
+              path: /db
+              port: 3000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 300m
+              memory: 256Mi
+          volumeMounts:
+            - name: db-data
+              mountPath: /data
+      volumes:
+        - name: db-config           # ConfigMap (읽기 전용) — 원본 db.json
+          configMap:
+            name: hotel-db          # kustomize configMapGenerator 가 생성
+        - name: db-data             # emptyDir (읽기/쓰기) — json-server 가 사용
+          emptyDir: {}

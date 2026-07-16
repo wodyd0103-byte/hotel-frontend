@@ -1,0 +1,11 @@
+node_modules/
+.bkit/
+.omc/
+*.log
+.DS_Store
+Thumbs.db
+
+# labport 서버 실행 상태 파일 (커밋에서 제외)
+server.pid
+server.port
+kustomize

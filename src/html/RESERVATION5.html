@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>예약 등록 | kopo14 Hotel</title>
+    <script type="module" src="../js/Header.js"></script>
+    <script type="module" src="../js/Footer.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <my-header></my-header>
+
+    <section class="page-banner" style="background-image: url('../images/home3.jpg')">
+      <h2>RESERVATION</h2>
+      <p class="sub">실시간예약</p>
+    </section>
+
+    <main class="subpage">
+      <div class="section-head">
+        <h3>예약 등록</h3>
+      </div>
+
+      <div class="booking">
+        <!-- form -->
+        <form class="rsv-form" id="rsvForm" onsubmit="return false">
+          <div class="form-row">
+            <label>ROOM</label>
+            <div class="field"><input id="fRoom" type="text" readonly /></div>
+          </div>
+          <div class="form-row">
+            <label>추가인원</label>
+            <div class="field"><input id="fExtra" type="text" readonly /></div>
+          </div>
+          <div class="form-row mobile-only">
+            <label>입실</label>
+            <div class="field"><input id="fCheckin" type="text" readonly /></div>
+          </div>
+          <div class="form-row mobile-only">
+            <label>퇴실</label>
+            <div class="field"><input id="fCheckout" type="text" readonly /></div>
+          </div>
+          <div class="form-row">
+            <label>예약명</label>
+            <div class="field">
+              <input id="fName" type="text" placeholder="예약명을 입력해 주세요." />
+              <div class="err" id="nameErr"></div>
+            </div>
+          </div>
+          <div class="form-row">
+            <label>전화번호</label>
+            <div class="field">
+              <input id="fTel" type="tel" placeholder="-를 제외하고 입력해 주세요." />
+              <div class="err" id="telErr"></div>
+            </div>
+          </div>
+          <div class="form-total">
+            <span>총 합계</span>
+            <span><span class="amount" id="fTotal">150,000</span> 원</span>
+          </div>
+        </form>
+
+        <!-- read-only calendar (desktop only; mobile shows 입실/퇴실 fields instead) -->
+        <div class="bk-panel rsv-calendar-desktop">
+          <div class="cal-head">
+            <button id="calPrev" aria-label="이전 달">&lsaquo;</button>
+            <span class="cal-title" id="calTitle">2025년 05월</span>
+            <button id="calNext" aria-label="다음 달">&rsaquo;</button>
+          </div>
+          <table class="cal-grid" id="calGrid"></table>
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <a class="btn-cancel" href="RESERVATION2.html">취소</a>
+        <button class="btn-book active" id="submitBtn">예약하기</button>
+      </div>
+    </main>
+
+    <button id="topBtn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+      <img src="../images/TO TOP BUTTON.png" alt="맨 위로" />
+    </button>
+
+    <my-footer></my-footer>
+    <script src="../js/reservation.js"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+name: Build & Deploy (GitOps)
+
+# main 브랜치에 push 되면 실행
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # kustomization.yaml 이미지 태그 갱신 커밋·푸시용
+      packages: write   # GHCR(패키지) 푸시용
+
+    steps:
+      # 1) 코드 체크아웃
+      - name: 체크아웃
+        uses: actions/checkout@v4
+
+      # 2) 이미지 태그 생성 (커밋 SHA + latest)
+      - name: 이미지 메타데이터
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ghcr.io/${{ github.repository_owner }}/hotel-frontend
+          tags: |
+            type=sha,prefix=
+            latest
+
+      # 3) GHCR 로그인 (GITHUB_TOKEN 자동 사용 — 별도 시크릿 불필요)
+      - name: GHCR 로그인
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      # 4) 컨테이너 빌드 & 레지스트리 푸시
+      - name: 빌드 & 푸시
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+
+      # ──────────────────────────────────────────────────────────────
+      # GitOps: 방금 푸시한 이미지(SHA)로 k8s 매니페스트를 갱신해 커밋.
+      # ArgoCD 가 이 커밋을 감지해 클러스터에 자동 배포 → 핵심 흐름.
+      # 참고: GITHUB_TOKEN 이 만든 커밋은 CI 를 재트리거하지 않아 무한 루프 없음.
+      # ──────────────────────────────────────────────────────────────
+
+      - name: kustomize 설치
+        run: |
+          curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh" | bash
+          sudo mv kustomize /usr/local/bin/
+
+      - name: 이미지 태그 갱신
+        run: |
+          TAG=${GITHUB_SHA::7}
+          kustomize edit set image hotel-frontend=ghcr.io/${{ github.repository_owner }}/hotel-frontend:${TAG}
+          echo "갱신된 이미지 → ghcr.io/${{ github.repository_owner }}/hotel-frontend:${TAG}"
+
+      - name: 갱신 내역 커밋 & 푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add kustomization.yaml
+          git commit -m "cd: deploy ${GITHUB_SHA::7}" || echo "변경 사항 없음"
+          git push
