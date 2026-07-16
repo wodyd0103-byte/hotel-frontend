@@ -111,6 +111,23 @@ class MyHeader extends HTMLElement {
 
     header.append(h1, nav, subnav);
     this.appendChild(header);
+
+    // To-Top Button: 헤더를 쓰는 모든 페이지에 자동 포함.
+    // position: fixed 이라 <my-header> 자식이어도 화면 우하단에 고정 노출.
+    const topBtn = document.createElement("button");
+    topBtn.id = "topBtn";
+    topBtn.setAttribute("aria-label", "맨 위로");
+
+    const topImg = document.createElement("img");
+    topImg.src = "images/TO TOP BUTTON.png";
+    topImg.alt = "맨 위로";
+    topBtn.appendChild(topImg);
+
+    topBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    this.appendChild(topBtn);
   }
 }
 
