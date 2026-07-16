@@ -463,6 +463,22 @@ function initForm() {
   const parts = (data.checkin || "2026-07-15").split("-").map(Number);
   const view = { year: parts[0], month: parts[1] };
 
+  // 탐색 가능한 달 범위 = 입실일 ~ 퇴실일이 속한 달.
+  // 예) 7/23~7/24 예약이면 7월까지만 보고 6월/8월로 못 넘어감.
+  // (퇴실이 다음 달이면 그 달까지 허용)
+  const ciParts = (data.checkin || "2026-07-15").split("-").map(Number);
+  const coParts = (data.checkout || data.checkin || "2026-07-15")
+    .split("-")
+    .map(Number);
+  const minMonthIdx = ciParts[0] * 12 + (ciParts[1] - 1);
+  const maxMonthIdx = coParts[0] * 12 + (coParts[1] - 1);
+  const monthIdx = (y, m) => y * 12 + (m - 1);
+
+  function syncNavButtons() {
+    if (prev) prev.disabled = monthIdx(view.year, view.month) <= minMonthIdx;
+    if (next) next.disabled = monthIdx(view.year, view.month) >= maxMonthIdx;
+  }
+
   function drawCal() {
     if (title) title.textContent = `${view.year}년 ${pad2(view.month)}월`;
     renderCalendar(grid, {
@@ -472,11 +488,13 @@ function initForm() {
       checkin: data.checkin,
       checkout: data.checkout,
     });
+    syncNavButtons();
   }
   const prev = document.getElementById("calPrev");
   const next = document.getElementById("calNext");
   if (prev)
     prev.addEventListener("click", () => {
+      if (monthIdx(view.year, view.month) <= minMonthIdx) return;
       view.month--;
       if (view.month < 1) {
         view.month = 12;
@@ -486,6 +504,7 @@ function initForm() {
     });
   if (next)
     next.addEventListener("click", () => {
+      if (monthIdx(view.year, view.month) >= maxMonthIdx) return;
       view.month++;
       if (view.month > 12) {
         view.month = 1;
