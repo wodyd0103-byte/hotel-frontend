@@ -430,7 +430,7 @@ my-footer .copy {
   my-header header {
     height: 90px;
     padding: 12px 20px 8px;
-    align-items: stretch; /* 메뉴/로고를 좌측 기준 정렬 */
+    align-items: stretch; /* 메뉴는 좌측, 로고는 아래 self 규칙으로 중앙 */
     transition: height 0.25s ease;
   }
   my-header header.subnav-open {
@@ -438,7 +438,7 @@ my-footer .copy {
   }
   my-header .logo {
     font-size: 22px;
-    align-self: flex-start;
+    align-self: center; /* H 로고는 중앙 */
   }
   my-header nav {
     gap: 24px;
