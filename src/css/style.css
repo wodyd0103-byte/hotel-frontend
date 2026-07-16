@@ -430,15 +430,20 @@ my-footer .copy {
   my-header header {
     height: 90px;
     padding: 12px 20px 8px;
-    align-items: stretch; /* 메뉴는 좌측, 로고는 아래 self 규칙으로 중앙 */
+    align-items: stretch; /* 각 행(h1/nav/subnav)을 전체 너비로 → align-self 로 개별 정렬 */
     transition: height 0.25s ease;
   }
   my-header header.subnav-open {
     height: 120px;
   }
+  /* 로고는 h1 박스 자체를 중앙 정렬 — align-self 는 flex 직접 자식에만 작동하므로
+     .logo(=h1 안)가 아닌 h1 에 줘야 함. h1 은 font-size:0 이라 폭이 좁지만
+     align-self:center 로 그 좁은 박스가 가운데로 감 → 그 안의 "H" 도 중앙. */
+  my-header h1 {
+    align-self: center;
+  }
   my-header .logo {
     font-size: 22px;
-    align-self: center; /* H 로고는 중앙 */
   }
   my-header nav {
     gap: 24px;
@@ -460,6 +465,7 @@ my-footer .copy {
     display: flex;
     justify-content: flex-start; /* 서브메뉴(예약안내 등) 좌측 정렬 */
     align-self: stretch;
+    width: 100%; /* stretch 보조: 서브메뉴 컨테이너를 전체 너비로 확실히 */
     gap: 24px;
     padding: 8px 20px 0;
     margin-top: 8px;
