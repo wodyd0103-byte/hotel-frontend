@@ -1224,6 +1224,13 @@ my-footer .copy {
     grid-template-columns: 1fr;
     gap: 34px;
   }
+  .rsv-band {
+    /* 모바일에서 방 사진을 1:1 비율(정사각형)로 축소 — 고정 높이로 인해
+       세로로 길쭉해지는 현상 방지. height 고정값을 덮어쓴다. */
+    height: auto;
+    aspect-ratio: 1 / 1;
+    gap: 20px;
+  }
   .rsv-band .band-name {
     font-size: 22px;
   }
