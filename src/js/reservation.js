@@ -245,9 +245,8 @@ async function initBooking() {
   function refreshTotal() {
     const extra = Number(extraEl.value);
     const nights = nightsList();
-    const base = nights.length
-      ? baseTotal(nights)
-      : nightlyPrice(iso(state.year, state.month, today.getDate()), roomId, prices, seasons, holidaySet);
+    // 아무 날짜도 고르지 않은 초기 상태(또는 입실만 고른 상태) → 0원
+    const base = nights.length ? baseTotal(nights) : 0;
     totalEl.textContent = WON(base * (1 + 0.2 * extra));
     bookBtn.classList.toggle("active", !!(state.checkin && state.checkout));
   }
@@ -265,6 +264,14 @@ async function initBooking() {
     } else if (new Date(date) > new Date(state.checkin)) {
       if (daysBetween(state.checkin, date) > MAX_STAY_NIGHTS) {
         showOverlay(`${MAX_STAY_NIGHTS + 1}일 이상 예약하실 수 없습니다.`);
+        return;
+      }
+      // 입실~퇴실 기간(숙박하는 날) 중 예약완료 또는 휴일이 끼어있으면 예약 불가
+      const range = expandRange(state.checkin, date);
+      const blocked = range.find((d) => bookedSet.has(d) || holidaySet.has(d));
+      if (blocked) {
+        const reason = bookedSet.has(blocked) ? "예약완료" : "휴일";
+        showOverlay(`선택하신 기간 중 ${reason} 날짜가 포함되어 예약할 수 없습니다.`);
         return;
       }
       state.checkout = date;
@@ -406,6 +413,10 @@ async function initBooking() {
     const nights = expandRange(state.checkin, state.checkout);
     if (nights.some((d) => bookedSet.has(d))) {
       alert("선택하신 기간 중 이미 예약된 날짜가 있습니다.");
+      return;
+    }
+    if (nights.some((d) => holidaySet.has(d))) {
+      alert("선택하신 기간 중 휴일이 포함되어 예약할 수 없습니다.");
       return;
     }
     const extra = Number(extraEl.value);
