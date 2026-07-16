@@ -1,12 +1,14 @@
-const API = "http://localhost:3000";
+// 외부 접속(프록시)과 로컬 미리보기 모두에서 REST API 를 찾도록
+// 현재 페이지의 base 경로(document.baseURI)를 기준으로 API 루트를 계산.
+const API = new URL(".", document.baseURI).pathname.replace(/\/$/, "");
 
 // db.json room images are mostly missing from src/images/, so band backgrounds
 // keep using the local room1~4.jpg that already exist in the project.
 const ROOM_LINKS = {
-  1: { href: "RESERVATION3.html", img: "../images/room1.jpg" },
-  2: { href: "RESERVATION3-2.html", img: "../images/room2.jpg" },
-  3: { href: "RESERVATION3-3.html", img: "../images/room3.jpg" },
-  4: { href: "RESERVATION3-4.html", img: "../images/room4.jpg" },
+  1: { href: "RESERVATION3.html", img: "images/room1.jpg" },
+  2: { href: "RESERVATION3-2.html", img: "images/room2.jpg" },
+  3: { href: "RESERVATION3-3.html", img: "images/room3.jpg" },
+  4: { href: "RESERVATION3-4.html", img: "images/room4.jpg" },
 };
 
 async function renderRoomBands() {

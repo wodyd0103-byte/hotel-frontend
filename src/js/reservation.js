@@ -1,6 +1,8 @@
 // ===== Reservation shared logic (gallery + calendar + total + form) =====
 
-const API = "http://localhost:3000";
+// 외부 접속(프록시)과 로컬 미리보기 모두에서 REST API 를 찾도록
+// 현재 페이지의 base 경로(document.baseURI)를 기준으로 API 루트를 계산.
+const API = new URL(".", document.baseURI).pathname.replace(/\/$/, "");
 
 const WON = (n) => Math.round(n).toLocaleString("ko-KR");
 const pad2 = (n) => String(n).padStart(2, "0");
@@ -202,12 +204,12 @@ async function initBooking() {
   if (descEn) descEn.textContent = room.desc_eng;
 
   if (mainImg && thumbsWrap && room.images && room.images.length) {
-    mainImg.src = `../images/${room.images[0]}`;
+    mainImg.src = `images/${room.images[0]}`;
     mainImg.alt = room.name;
     thumbsWrap.innerHTML = room.images
       .map(
         (img, i) =>
-          `<img src="../images/${img}" alt="${room.name} ${i + 1}" class="${i === 0 ? "active" : ""}" />`
+          `<img src="images/${img}" alt="${room.name} ${i + 1}" class="${i === 0 ? "active" : ""}" />`
       )
       .join("");
   }

@@ -4,8 +4,8 @@ metadata:
   name: hotel-frontend
   namespace: hotel
   annotations:
-    # "/" 로 접속하면 메인 페이지(/html/HOME.html)로 자동 이동
-    nginx.ingress.kubernetes.io/app-root: /html/HOME.html
+    # "/" 로 접속하면 메인 페이지(/HOME.html)로 자동 이동
+    nginx.ingress.kubernetes.io/app-root: /HOME.html
 spec:
   ingressClassName: nginx          # ← TODO: 클러스터의 Ingress 컨트롤러에 맞게 변경 (예: traefik)
   rules:

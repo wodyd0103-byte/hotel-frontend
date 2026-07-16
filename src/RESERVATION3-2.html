@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>STANDARD 예약 | kopo14 Hotel</title>
-    <script type="module" src="../js/Header.js"></script>
-    <script type="module" src="../js/Footer.js"></script>
-    <link rel="stylesheet" href="../css/style.css" />
+    <title>DELUXE 예약 | kopo14 Hotel</title>
+    <script type="module" src="js/Header.js"></script>
+    <script type="module" src="js/Footer.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body data-room-id="1">
+  <body data-room-id="2">
     <my-header></my-header>
 
     <section
       class="page-banner"
-      style="background-image: url(&quot;../images/home3.jpg&quot;)"
+      style="background-image: url(&quot;images/home3.jpg&quot;)"
     >
       <h2>RESERVATION</h2>
       <p class="sub">실시간예약</p>
@@ -21,7 +21,7 @@
 
     <main class="subpage">
       <div class="section-head">
-        <h3>STANDARD</h3>
+        <h3>DELUXE</h3>
       </div>
 
       <div class="booking">
@@ -30,14 +30,14 @@
           <img
             class="bk-main"
             id="bkMain"
-            src="../images/room1.jpg"
-            alt="STANDARD"
+            src="images/room2.jpg"
+            alt="DELUXE"
           />
           <div class="bk-thumbs" id="bkThumbs">
-            <img src="../images/room1.jpg" alt="STANDARD 1" class="active" />
-            <img src="../images/room2.jpg" alt="STANDARD 2" />
-            <img src="../images/room3.jpg" alt="STANDARD 3" />
-            <img src="../images/room4.jpg" alt="STANDARD 4" />
+            <img src="images/room2.jpg" alt="DELUXE 1" class="active" />
+            <img src="images/room3.jpg" alt="DELUXE 2" />
+            <img src="images/room4.jpg" alt="DELUXE 3" />
+            <img src="images/room5.jpg" alt="DELUXE 4" />
           </div>
         </div>
 
@@ -58,7 +58,7 @@
 
           <div class="bk-total">
             <span>총 합계</span>
-            <span><span class="amount" id="total">150,000</span> 원</span>
+            <span><span class="amount" id="total">180,000</span> 원</span>
           </div>
 
           <div class="bk-actions">
@@ -69,12 +69,12 @@
 
         <div class="bk-desc">
           <p class="kr">
-            스튜디오 타입 파스텔 톤 객실에 휴식을 취할 수 있는 테이블과 체어,
-            그리고 라탄 타입의 아늑한 체어를 완비한 가장 기본적인 룸입니다.
+            한층 여유로운 공간과 킹 사이즈 베드, 그리고 도심 전망을 담은 큰 창을
+            갖춘 디럭스 룸입니다.
           </p>
           <p class="en">
-            A standard room is the most basic type of hotel room, typically
-            offering a bed, a desk, and a private bathroom.
+            A deluxe room offers more space and upgraded amenities for a relaxed
+            and comfortable stay.
           </p>
         </div>
       </div>
@@ -84,10 +84,10 @@
       id="topBtn"
       onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
     >
-      <img src="../images/TO TOP BUTTON.png" alt="맨 위로" />
+      <img src="images/TO TOP BUTTON.png" alt="맨 위로" />
     </button>
 
     <my-footer></my-footer>
-    <script src="../js/reservation.js"></script>
+    <script src="js/reservation.js"></script>
   </body>
 </html>

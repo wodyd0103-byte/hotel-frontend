@@ -96,5 +96,5 @@ git push
 ```bash
 docker build -t hotel-frontend .
 docker run --rm -p 3000:3000 -v "$(pwd)/db.json:/data/db.json" hotel-frontend
-# 브라우저: http://localhost:3000/html/HOME.html
+# 브라우저: http://localhost:3000/HOME.html
 ```

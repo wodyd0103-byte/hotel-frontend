@@ -5,9 +5,9 @@ class MyFooter extends HTMLElement {
         <h1>H</h1>
 
         <div class="sns">
-          <a href="#"><img src="../images/instagram.png" alt="Instagram"></a>
-          <a href="#"><img src="../images/facebook.png" alt="Facebook"></a>
-          <a href="#"><img src="../images/youtube.png" alt="YouTube"></a>
+          <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
         </div>
 
         <div class="info">

@@ -1,4 +1,7 @@
-const API = "http://localhost:3000";
+// 외부 접속(프록시)과 로컬 미리보기 모두에서 REST API 를 찾도록
+// 현재 페이지의 base 경로(document.baseURI)를 기준으로 API 루트를 계산.
+// 직접 접속: "" → fetch("/rooms")  /  프록시 접속: "/g/.../HOTELPROJECT" → fetch("/g/.../HOTELPROJECT/rooms")
+const API = new URL(".", document.baseURI).pathname.replace(/\/$/, "");
 
 function fmtMD(isoDate) {
   const [, m, d] = isoDate.split("-");
